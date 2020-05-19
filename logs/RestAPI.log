@@ -1,0 +1,900 @@
+2020-05-16 14:46:42 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:46:42 INFO  TestBase:58 - 
+2020-05-16 14:46:42 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:46:42 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:46:42 INFO  TestBase:63 - 
+2020-05-16 14:46:42 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:46:42 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:46:42 INFO  TestBase:68 - 
+2020-05-16 14:46:44 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:46:44 INFO  TestBase:58 - 
+2020-05-16 14:46:44 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:46:44 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:46:44 INFO  TestBase:63 - 
+2020-05-16 14:46:44 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:46:44 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:46:44 INFO  TestBase:68 - 
+2020-05-16 14:46:45 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:46:45 INFO  TestBase:58 - 
+2020-05-16 14:46:45 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:46:45 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:46:45 INFO  TestBase:63 - 
+2020-05-16 14:46:45 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:46:45 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:46:45 INFO  TestBase:68 - 
+2020-05-16 14:46:46 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:46:46 INFO  TestBase:58 - 
+2020-05-16 14:46:46 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:46:46 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:46:46 INFO  TestBase:63 - 
+2020-05-16 14:46:46 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:46:46 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:46:46 INFO  TestBase:68 - 
+2020-05-16 14:46:48 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:46:48 INFO  TestBase:58 - 
+2020-05-16 14:46:48 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:46:48 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:46:48 INFO  TestBase:63 - 
+2020-05-16 14:46:48 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:46:48 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:46:48 INFO  TestBase:68 - 
+2020-05-16 14:46:49 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:46:49 INFO  TestBase:58 - 
+2020-05-16 14:46:49 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:46:49 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:46:49 INFO  TestBase:63 - 
+2020-05-16 14:46:49 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:46:49 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:46:49 INFO  TestBase:68 - 
+2020-05-16 14:46:51 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:46:51 INFO  TestBase:58 - 
+2020-05-16 14:46:51 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:46:51 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:46:51 INFO  TestBase:63 - 
+2020-05-16 14:46:51 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:46:51 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:46:51 INFO  TestBase:68 - 
+2020-05-16 14:46:52 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:46:52 INFO  TestBase:58 - 
+2020-05-16 14:46:52 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:46:52 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:46:52 INFO  TestBase:63 - 
+2020-05-16 14:46:52 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:46:52 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:46:52 INFO  TestBase:68 - 
+2020-05-16 14:46:54 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:46:54 INFO  TestBase:58 - 
+2020-05-16 14:46:54 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:46:54 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:46:54 INFO  TestBase:63 - 
+2020-05-16 14:46:54 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:46:54 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:46:54 INFO  TestBase:68 - 
+2020-05-16 14:46:55 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:46:55 INFO  TestBase:58 - 
+2020-05-16 14:46:55 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:46:55 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:46:55 INFO  TestBase:63 - 
+2020-05-16 14:46:55 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:46:55 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:46:55 INFO  TestBase:68 - 
+2020-05-16 14:46:56 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:46:56 INFO  TestBase:58 - 
+2020-05-16 14:46:56 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:46:56 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:46:56 INFO  TestBase:63 - 
+2020-05-16 14:46:56 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:46:56 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:46:56 INFO  TestBase:68 - 
+2020-05-16 14:46:58 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:46:58 INFO  TestBase:58 - 
+2020-05-16 14:46:58 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:46:58 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:46:58 INFO  TestBase:63 - 
+2020-05-16 14:46:58 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:46:58 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:46:58 INFO  TestBase:68 - 
+2020-05-16 14:46:59 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:46:59 INFO  TestBase:58 - 
+2020-05-16 14:46:59 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:46:59 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:46:59 INFO  TestBase:63 - 
+2020-05-16 14:46:59 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:46:59 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:46:59 INFO  TestBase:68 - 
+2020-05-16 14:47:00 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:00 INFO  TestBase:58 - 
+2020-05-16 14:47:00 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:00 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:00 INFO  TestBase:63 - 
+2020-05-16 14:47:00 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:00 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:00 INFO  TestBase:68 - 
+2020-05-16 14:47:02 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:02 INFO  TestBase:58 - 
+2020-05-16 14:47:02 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:02 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:02 INFO  TestBase:63 - 
+2020-05-16 14:47:02 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:02 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:02 INFO  TestBase:68 - 
+2020-05-16 14:47:03 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:03 INFO  TestBase:58 - 
+2020-05-16 14:47:03 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:03 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:03 INFO  TestBase:63 - 
+2020-05-16 14:47:03 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:03 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:03 INFO  TestBase:68 - 
+2020-05-16 14:47:04 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:04 INFO  TestBase:58 - 
+2020-05-16 14:47:04 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:04 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:04 INFO  TestBase:63 - 
+2020-05-16 14:47:04 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:04 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:04 INFO  TestBase:68 - 
+2020-05-16 14:47:06 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:06 INFO  TestBase:58 - 
+2020-05-16 14:47:06 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:06 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:06 INFO  TestBase:63 - 
+2020-05-16 14:47:06 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:06 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:06 INFO  TestBase:68 - 
+2020-05-16 14:47:07 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:07 INFO  TestBase:58 - 
+2020-05-16 14:47:07 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:07 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:07 INFO  TestBase:63 - 
+2020-05-16 14:47:07 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:07 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:07 INFO  TestBase:68 - 
+2020-05-16 14:47:09 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:09 INFO  TestBase:58 - 
+2020-05-16 14:47:09 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:09 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:09 INFO  TestBase:63 - 
+2020-05-16 14:47:09 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:09 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:09 INFO  TestBase:68 - 
+2020-05-16 14:47:11 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:11 INFO  TestBase:58 - 
+2020-05-16 14:47:11 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:11 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:11 INFO  TestBase:63 - 
+2020-05-16 14:47:11 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:11 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:11 INFO  TestBase:68 - 
+2020-05-16 14:47:49 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:49 INFO  TestBase:58 - 
+2020-05-16 14:47:49 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:49 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:49 INFO  TestBase:63 - 
+2020-05-16 14:47:49 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:49 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:49 INFO  TestBase:68 - 
+2020-05-16 14:47:50 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:50 INFO  TestBase:58 - 
+2020-05-16 14:47:50 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:50 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:50 INFO  TestBase:63 - 
+2020-05-16 14:47:50 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:50 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:50 INFO  TestBase:68 - 
+2020-05-16 14:47:51 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:51 INFO  TestBase:58 - 
+2020-05-16 14:47:51 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:51 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:51 INFO  TestBase:63 - 
+2020-05-16 14:47:51 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:51 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:51 INFO  TestBase:68 - 
+2020-05-16 14:47:52 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:52 INFO  TestBase:58 - 
+2020-05-16 14:47:52 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:52 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:52 INFO  TestBase:63 - 
+2020-05-16 14:47:52 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:52 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:52 INFO  TestBase:68 - 
+2020-05-16 14:47:54 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:54 INFO  TestBase:58 - 
+2020-05-16 14:47:54 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:54 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:54 INFO  TestBase:63 - 
+2020-05-16 14:47:54 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:54 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:54 INFO  TestBase:68 - 
+2020-05-16 14:47:55 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:55 INFO  TestBase:58 - 
+2020-05-16 14:47:55 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:55 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:55 INFO  TestBase:63 - 
+2020-05-16 14:47:55 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:55 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:55 INFO  TestBase:68 - 
+2020-05-16 14:47:57 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:57 INFO  TestBase:58 - 
+2020-05-16 14:47:57 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:57 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:57 INFO  TestBase:63 - 
+2020-05-16 14:47:57 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:57 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:57 INFO  TestBase:68 - 
+2020-05-16 14:47:58 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:58 INFO  TestBase:58 - 
+2020-05-16 14:47:58 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:58 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:58 INFO  TestBase:63 - 
+2020-05-16 14:47:58 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:58 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:58 INFO  TestBase:68 - 
+2020-05-16 14:47:59 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:47:59 INFO  TestBase:58 - 
+2020-05-16 14:47:59 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:47:59 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:47:59 INFO  TestBase:63 - 
+2020-05-16 14:47:59 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:47:59 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:47:59 INFO  TestBase:68 - 
+2020-05-16 14:48:00 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:48:00 INFO  TestBase:58 - 
+2020-05-16 14:48:00 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:48:00 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:48:00 INFO  TestBase:63 - 
+2020-05-16 14:48:00 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:48:00 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:48:00 INFO  TestBase:68 - 
+2020-05-16 14:48:02 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:48:02 INFO  TestBase:58 - 
+2020-05-16 14:48:02 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:48:02 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:48:02 INFO  TestBase:63 - 
+2020-05-16 14:48:02 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:48:02 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:48:02 INFO  TestBase:68 - 
+2020-05-16 14:48:03 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:48:03 INFO  TestBase:58 - 
+2020-05-16 14:48:03 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:48:03 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:48:03 INFO  TestBase:63 - 
+2020-05-16 14:48:03 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:48:03 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:48:03 INFO  TestBase:68 - 
+2020-05-16 14:48:05 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:48:05 INFO  TestBase:58 - 
+2020-05-16 14:48:05 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:48:05 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:48:05 INFO  TestBase:63 - 
+2020-05-16 14:48:05 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:48:05 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:48:05 INFO  TestBase:68 - 
+2020-05-16 14:48:06 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 14:48:06 INFO  TestBase:58 - 
+2020-05-16 14:48:06 INFO  TestBase:59 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:48:06 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 14:48:06 INFO  TestBase:63 - 
+2020-05-16 14:48:06 INFO  TestBase:64 - **************** Checking Content-Type *****************
+2020-05-16 14:48:06 INFO  TestBase:66 - Content-type => application/json
+2020-05-16 14:48:06 INFO  TestBase:68 - 
+2020-05-16 14:48:54 INFO  TestBase:17 - phoneNumber =83833833834 password =Password123@ output =Success sign in description =All field ok, user exist, phone true & password true
+2020-05-16 14:48:57 INFO  TestBase:36 - *************** Checking Response Body ****************
+2020-05-16 14:48:57 INFO  TestBase:38 - 
+2020-05-16 14:48:57 INFO  TestBase:39 - Response body => {"idUser":80,"message":"success","token":2475,"status":"200"}
+2020-05-16 14:48:57 INFO  TestBase:40 - **************** Checking Status Code *****************
+2020-05-16 14:48:57 INFO  TestBase:43 - 
+2020-05-16 14:48:57 INFO  TestBase:44 - **************** Checking Content-Type *****************
+2020-05-16 14:48:57 INFO  TestBase:46 - Content-type => application/json
+2020-05-16 14:48:57 INFO  TestBase:48 - 
+2020-05-16 14:48:57 INFO  TestBase:17 - phoneNumber =83833833834 password =Password12@ output =Fail sign in description =All field ok, user exist  but password false
+2020-05-16 14:48:58 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:48:58 INFO  TestBase:59 - 
+2020-05-16 14:48:58 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:48:58 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:48:58 INFO  TestBase:64 - 
+2020-05-16 14:48:58 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:48:58 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:48:58 INFO  TestBase:69 - 
+2020-05-16 14:48:58 INFO  TestBase:17 - phoneNumber =83833833833 password =Password12@ output =Fail sign in description =All field ok, password true but phone number false
+2020-05-16 14:49:00 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:00 INFO  TestBase:59 - 
+2020-05-16 14:49:00 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:00 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:00 INFO  TestBase:64 - 
+2020-05-16 14:49:00 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:00 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:00 INFO  TestBase:69 - 
+2020-05-16 14:49:00 INFO  TestBase:17 - phoneNumber =83833833833 password =Password123@ output =Fail sign in description =All field ok, user not registered
+2020-05-16 14:49:01 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:01 INFO  TestBase:59 - 
+2020-05-16 14:49:01 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:01 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:01 INFO  TestBase:64 - 
+2020-05-16 14:49:01 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:01 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:01 INFO  TestBase:69 - 
+2020-05-16 14:49:01 INFO  TestBase:17 - phoneNumber = password =Password123@ output =Fail sign in description =Invalid Phone Number (empty)
+2020-05-16 14:49:03 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:03 INFO  TestBase:59 - 
+2020-05-16 14:49:03 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:03 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:03 INFO  TestBase:64 - 
+2020-05-16 14:49:03 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:03 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:03 INFO  TestBase:69 - 
+2020-05-16 14:49:03 INFO  TestBase:17 - phoneNumber =83833833834 password = output =Fail sign in description =Invalid Password (empty)
+2020-05-16 14:49:05 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:05 INFO  TestBase:59 - 
+2020-05-16 14:49:05 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:05 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:05 INFO  TestBase:64 - 
+2020-05-16 14:49:05 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:05 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:05 INFO  TestBase:69 - 
+2020-05-16 14:49:05 INFO  TestBase:17 - phoneNumber = password = output =Fail sign in description =All field empty
+2020-05-16 14:49:06 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:06 INFO  TestBase:59 - 
+2020-05-16 14:49:06 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:06 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:06 INFO  TestBase:64 - 
+2020-05-16 14:49:06 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:06 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:06 INFO  TestBase:69 - 
+2020-05-16 14:49:06 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:49:08 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:08 INFO  TestBase:59 - 
+2020-05-16 14:49:08 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:08 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:08 INFO  TestBase:64 - 
+2020-05-16 14:49:08 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:08 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:08 INFO  TestBase:69 - 
+2020-05-16 14:49:08 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:49:09 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:09 INFO  TestBase:59 - 
+2020-05-16 14:49:09 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:09 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:09 INFO  TestBase:64 - 
+2020-05-16 14:49:09 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:09 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:09 INFO  TestBase:69 - 
+2020-05-16 14:49:09 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:49:11 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:11 INFO  TestBase:59 - 
+2020-05-16 14:49:11 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:11 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:11 INFO  TestBase:64 - 
+2020-05-16 14:49:11 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:11 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:11 INFO  TestBase:69 - 
+2020-05-16 14:49:11 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:49:12 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:12 INFO  TestBase:59 - 
+2020-05-16 14:49:12 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:12 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:12 INFO  TestBase:64 - 
+2020-05-16 14:49:12 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:12 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:12 INFO  TestBase:69 - 
+2020-05-16 14:49:12 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:49:14 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:14 INFO  TestBase:59 - 
+2020-05-16 14:49:14 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:14 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:14 INFO  TestBase:64 - 
+2020-05-16 14:49:14 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:14 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:14 INFO  TestBase:69 - 
+2020-05-16 14:49:14 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:49:15 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:15 INFO  TestBase:59 - 
+2020-05-16 14:49:15 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:15 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:15 INFO  TestBase:64 - 
+2020-05-16 14:49:15 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:15 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:15 INFO  TestBase:69 - 
+2020-05-16 14:49:15 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:49:17 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:17 INFO  TestBase:59 - 
+2020-05-16 14:49:17 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:17 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:17 INFO  TestBase:64 - 
+2020-05-16 14:49:17 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:17 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:17 INFO  TestBase:69 - 
+2020-05-16 14:49:17 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:49:18 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:18 INFO  TestBase:59 - 
+2020-05-16 14:49:18 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:18 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:18 INFO  TestBase:64 - 
+2020-05-16 14:49:18 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:18 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:18 INFO  TestBase:69 - 
+2020-05-16 14:49:18 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:49:19 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:19 INFO  TestBase:59 - 
+2020-05-16 14:49:19 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:19 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:19 INFO  TestBase:64 - 
+2020-05-16 14:49:19 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:19 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:19 INFO  TestBase:69 - 
+2020-05-16 14:49:19 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:49:20 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:20 INFO  TestBase:59 - 
+2020-05-16 14:49:20 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:20 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:20 INFO  TestBase:64 - 
+2020-05-16 14:49:20 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:20 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:20 INFO  TestBase:69 - 
+2020-05-16 14:49:20 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:49:22 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:22 INFO  TestBase:59 - 
+2020-05-16 14:49:22 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:22 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:22 INFO  TestBase:64 - 
+2020-05-16 14:49:22 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:22 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:22 INFO  TestBase:69 - 
+2020-05-16 14:49:22 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:49:23 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:23 INFO  TestBase:59 - 
+2020-05-16 14:49:23 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:23 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:23 INFO  TestBase:64 - 
+2020-05-16 14:49:23 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:23 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:23 INFO  TestBase:69 - 
+2020-05-16 14:49:23 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:49:25 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:49:25 INFO  TestBase:59 - 
+2020-05-16 14:49:25 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:49:25 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:49:25 INFO  TestBase:64 - 
+2020-05-16 14:49:25 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:49:25 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:49:25 INFO  TestBase:69 - 
+2020-05-16 14:49:25 INFO  TestBase:17 - phoneNumber = password = output = description =
+2020-05-16 14:50:40 INFO  TestBase:17 - phoneNumber =83833833834 password =Password123@ output =Success sign in description =All field ok, user exist, phone true & password true
+2020-05-16 14:50:43 INFO  TestBase:36 - *************** Checking Response Body ****************
+2020-05-16 14:50:43 INFO  TestBase:38 - 
+2020-05-16 14:50:43 INFO  TestBase:39 - Response body => {"idUser":80,"message":"success","token":1856,"status":"200"}
+2020-05-16 14:50:43 INFO  TestBase:40 - **************** Checking Status Code *****************
+2020-05-16 14:50:43 INFO  TestBase:43 - 
+2020-05-16 14:50:43 INFO  TestBase:44 - **************** Checking Content-Type *****************
+2020-05-16 14:50:43 INFO  TestBase:46 - Content-type => application/json
+2020-05-16 14:50:43 INFO  TestBase:48 - 
+2020-05-16 14:50:43 INFO  TestBase:17 - phoneNumber =83833833834 password =Password12@ output =Fail sign in description =All field ok, user exist  but password false
+2020-05-16 14:50:45 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:50:45 INFO  TestBase:59 - 
+2020-05-16 14:50:45 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:50:45 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:50:45 INFO  TestBase:64 - 
+2020-05-16 14:50:45 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:50:45 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:50:45 INFO  TestBase:69 - 
+2020-05-16 14:50:45 INFO  TestBase:17 - phoneNumber =83833833833 password =Password12@ output =Fail sign in description =All field ok, password true but phone number false
+2020-05-16 14:50:46 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:50:46 INFO  TestBase:59 - 
+2020-05-16 14:50:46 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:50:46 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:50:46 INFO  TestBase:64 - 
+2020-05-16 14:50:46 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:50:46 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:50:46 INFO  TestBase:69 - 
+2020-05-16 14:50:46 INFO  TestBase:17 - phoneNumber =83833833833 password =Password123@ output =Fail sign in description =All field ok, user not registered
+2020-05-16 14:51:09 INFO  TestBase:17 - phoneNumber =83833833834 password =Password123@ output =Success sign in description =All field ok, user exist, phone true & password true
+2020-05-16 14:51:23 INFO  TestBase:17 - phoneNumber =83833833834 password =Password12@ output =Fail sign in description =All field ok, user exist  but password false
+2020-05-16 14:51:35 INFO  TestBase:17 - phoneNumber =83833833833 password =Password12@ output =Fail sign in description =All field ok, password true but phone number false
+2020-05-16 14:51:47 INFO  TestBase:17 - phoneNumber =83833833833 password =Password123@ output =Fail sign in description =All field ok, user not registered
+2020-05-16 14:51:59 INFO  TestBase:17 - phoneNumber = password =Password123@ output =Fail sign in description =Invalid Phone Number (empty)
+2020-05-16 14:52:12 INFO  TestBase:17 - phoneNumber =83833833834 password = output =Fail sign in description =Invalid Password (empty)
+2020-05-16 14:52:24 INFO  TestBase:17 - phoneNumber = password = output =Fail sign in description =All field empty
+2020-05-16 14:52:26 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:52:26 INFO  TestBase:59 - 
+2020-05-16 14:52:26 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:52:26 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:52:26 INFO  TestBase:64 - 
+2020-05-16 14:52:26 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:52:26 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:52:26 INFO  TestBase:69 - 
+2020-05-16 14:52:33 INFO  TestBase:17 - phoneNumber =83833833834 password =Password123@ output =Success sign in description =All field ok, user exist, phone true & password true
+2020-05-16 14:52:36 INFO  TestBase:36 - *************** Checking Response Body ****************
+2020-05-16 14:52:36 INFO  TestBase:38 - 
+2020-05-16 14:52:36 INFO  TestBase:39 - Response body => {"idUser":80,"message":"success","token":8704,"status":"200"}
+2020-05-16 14:52:36 INFO  TestBase:40 - **************** Checking Status Code *****************
+2020-05-16 14:52:36 INFO  TestBase:43 - 
+2020-05-16 14:52:36 INFO  TestBase:44 - **************** Checking Content-Type *****************
+2020-05-16 14:52:36 INFO  TestBase:46 - Content-type => application/json
+2020-05-16 14:52:36 INFO  TestBase:48 - 
+2020-05-16 14:52:36 INFO  TestBase:17 - phoneNumber =83833833834 password =Password12@ output =Fail sign in description =All field ok, user exist  but password false
+2020-05-16 14:52:38 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:52:38 INFO  TestBase:59 - 
+2020-05-16 14:52:38 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:52:38 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:52:38 INFO  TestBase:64 - 
+2020-05-16 14:52:38 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:52:38 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:52:38 INFO  TestBase:69 - 
+2020-05-16 14:52:39 INFO  TestBase:17 - phoneNumber =83833833833 password =Password12@ output =Fail sign in description =All field ok, password true but phone number false
+2020-05-16 14:52:40 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:52:40 INFO  TestBase:59 - 
+2020-05-16 14:52:40 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:52:40 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:52:40 INFO  TestBase:64 - 
+2020-05-16 14:52:40 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:52:40 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:52:40 INFO  TestBase:69 - 
+2020-05-16 14:52:40 INFO  TestBase:17 - phoneNumber =83833833833 password =Password123@ output =Fail sign in description =All field ok, user not registered
+2020-05-16 14:52:42 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:52:42 INFO  TestBase:59 - 
+2020-05-16 14:52:42 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:52:42 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:52:42 INFO  TestBase:64 - 
+2020-05-16 14:52:42 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:52:42 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:52:42 INFO  TestBase:69 - 
+2020-05-16 14:52:42 INFO  TestBase:17 - phoneNumber = password =Password123@ output =Fail sign in description =Invalid Phone Number (empty)
+2020-05-16 14:52:44 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:52:44 INFO  TestBase:59 - 
+2020-05-16 14:52:44 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:52:44 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:52:44 INFO  TestBase:64 - 
+2020-05-16 14:52:44 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:52:44 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:52:44 INFO  TestBase:69 - 
+2020-05-16 14:52:44 INFO  TestBase:17 - phoneNumber =83833833834 password = output =Fail sign in description =Invalid Password (empty)
+2020-05-16 14:52:45 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:52:45 INFO  TestBase:59 - 
+2020-05-16 14:52:45 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:52:45 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:52:45 INFO  TestBase:64 - 
+2020-05-16 14:52:45 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:52:45 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:52:45 INFO  TestBase:69 - 
+2020-05-16 14:52:45 INFO  TestBase:17 - phoneNumber = password = output =Fail sign in description =All field empty
+2020-05-16 14:52:47 INFO  TestBase:57 - *************** Checking Response Body ****************
+2020-05-16 14:52:47 INFO  TestBase:59 - 
+2020-05-16 14:52:47 INFO  TestBase:60 - Response body => {"message":"Phone number or password wrong","status":"403"}
+2020-05-16 14:52:47 INFO  TestBase:61 - **************** Checking Status Code *****************
+2020-05-16 14:52:47 INFO  TestBase:64 - 
+2020-05-16 14:52:47 INFO  TestBase:65 - **************** Checking Content-Type *****************
+2020-05-16 14:52:47 INFO  TestBase:67 - Content-type => application/json
+2020-05-16 14:52:47 INFO  TestBase:69 - 
+2020-05-16 15:18:08 INFO  TestBase:35 - Id =Depend ID of 83833833834 output =Success description =All field ok, user exist and verified
+2020-05-16 15:18:11 INFO  TestBase:35 - Id =1000 output =Fail description =User not registered
+2020-05-16 15:18:12 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:18:12 INFO  TestBase:83 - 
+2020-05-16 15:18:12 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:18:12.517+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:18:12 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:18:12 INFO  TestBase:88 - 
+2020-05-16 15:18:12 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:18:12 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:18:12 INFO  TestBase:93 - 
+2020-05-16 15:18:12 INFO  TestBase:35 - Id =a output =Fail description =Invalid user id (string)
+2020-05-16 15:18:14 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:18:14 INFO  TestBase:83 - 
+2020-05-16 15:18:14 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:18:14.145+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:18:14 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:18:14 INFO  TestBase:88 - 
+2020-05-16 15:18:14 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:18:14 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:18:14 INFO  TestBase:93 - 
+2020-05-16 15:18:14 INFO  TestBase:35 - Id =@ output =Fail description =Invalid user id (symbol)
+2020-05-16 15:18:15 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:18:15 INFO  TestBase:83 - 
+2020-05-16 15:18:15 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:18:15.704+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:18:15 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:18:15 INFO  TestBase:88 - 
+2020-05-16 15:18:15 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:18:15 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:18:15 INFO  TestBase:93 - 
+2020-05-16 15:18:15 INFO  TestBase:35 - Id = output =Fail description =Invalid user id (empty)
+2020-05-16 15:18:17 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:18:17 INFO  TestBase:83 - 
+2020-05-16 15:18:17 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:18:17.018+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:18:17 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:18:17 INFO  TestBase:88 - 
+2020-05-16 15:18:17 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:18:17 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:18:17 INFO  TestBase:93 - 
+2020-05-16 15:22:10 INFO  TestBase:35 - Id =Depend ID of 83833833834 output =Success description =All field ok, user exist and verified
+2020-05-16 15:22:15 INFO  TestBase:55 - *************** Checking Response Body ****************
+2020-05-16 15:22:15 INFO  TestBase:57 - 
+2020-05-16 15:22:15 INFO  TestBase:58 - Response body => {"timestamp":"2020-05-16T08:22:15.398+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:22:15 INFO  TestBase:59 - **************** Checking Status Code *****************
+2020-05-16 15:22:15 INFO  TestBase:35 - Id =1000 output =Fail description =User not registered
+2020-05-16 15:22:16 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:22:16 INFO  TestBase:83 - 
+2020-05-16 15:22:16 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:22:16.823+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:22:16 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:22:16 INFO  TestBase:88 - 
+2020-05-16 15:22:16 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:22:16 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:22:16 INFO  TestBase:93 - 
+2020-05-16 15:22:17 INFO  TestBase:35 - Id =a output =Fail description =Invalid user id (string)
+2020-05-16 15:22:18 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:22:18 INFO  TestBase:83 - 
+2020-05-16 15:22:18 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:22:18.568+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:22:18 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:22:18 INFO  TestBase:88 - 
+2020-05-16 15:22:18 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:22:18 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:22:18 INFO  TestBase:93 - 
+2020-05-16 15:22:18 INFO  TestBase:35 - Id =@ output =Fail description =Invalid user id (symbol)
+2020-05-16 15:22:20 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:22:20 INFO  TestBase:83 - 
+2020-05-16 15:22:20 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:22:20.479+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:22:20 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:22:20 INFO  TestBase:88 - 
+2020-05-16 15:22:20 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:22:20 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:22:20 INFO  TestBase:93 - 
+2020-05-16 15:22:20 INFO  TestBase:35 - Id = output =Fail description =Invalid user id (empty)
+2020-05-16 15:22:22 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:22:22 INFO  TestBase:83 - 
+2020-05-16 15:22:22 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:22:22.183+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:22:22 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:22:22 INFO  TestBase:88 - 
+2020-05-16 15:22:22 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:22:22 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:22:22 INFO  TestBase:93 - 
+2020-05-16 15:23:00 INFO  TestBase:35 - Id =Depend ID of 83833833834 output =Success description =All field ok, user exist and verified
+2020-05-16 15:23:03 INFO  TestBase:41 - 80
+2020-05-16 15:23:06 INFO  TestBase:56 - *************** Checking Response Body ****************
+2020-05-16 15:23:06 INFO  TestBase:58 - 
+2020-05-16 15:23:06 INFO  TestBase:59 - Response body => {"timestamp":"2020-05-16T08:23:06.527+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:23:06 INFO  TestBase:60 - **************** Checking Status Code *****************
+2020-05-16 15:23:06 INFO  TestBase:35 - Id =1000 output =Fail description =User not registered
+2020-05-16 15:23:08 INFO  TestBase:82 - *************** Checking Response Body ****************
+2020-05-16 15:23:08 INFO  TestBase:84 - 
+2020-05-16 15:23:08 INFO  TestBase:85 - Response body => {"timestamp":"2020-05-16T08:23:08.025+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:23:08 INFO  TestBase:86 - **************** Checking Status Code *****************
+2020-05-16 15:23:08 INFO  TestBase:89 - 
+2020-05-16 15:23:08 INFO  TestBase:90 - **************** Checking Content-Type *****************
+2020-05-16 15:23:08 INFO  TestBase:92 - Content-type => application/json
+2020-05-16 15:23:08 INFO  TestBase:94 - 
+2020-05-16 15:23:08 INFO  TestBase:35 - Id =a output =Fail description =Invalid user id (string)
+2020-05-16 15:23:10 INFO  TestBase:82 - *************** Checking Response Body ****************
+2020-05-16 15:23:10 INFO  TestBase:84 - 
+2020-05-16 15:23:10 INFO  TestBase:85 - Response body => {"timestamp":"2020-05-16T08:23:09.703+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:23:10 INFO  TestBase:86 - **************** Checking Status Code *****************
+2020-05-16 15:23:10 INFO  TestBase:89 - 
+2020-05-16 15:23:10 INFO  TestBase:90 - **************** Checking Content-Type *****************
+2020-05-16 15:23:10 INFO  TestBase:92 - Content-type => application/json
+2020-05-16 15:23:10 INFO  TestBase:94 - 
+2020-05-16 15:23:10 INFO  TestBase:35 - Id =@ output =Fail description =Invalid user id (symbol)
+2020-05-16 15:23:15 INFO  TestBase:82 - *************** Checking Response Body ****************
+2020-05-16 15:23:15 INFO  TestBase:84 - 
+2020-05-16 15:23:15 INFO  TestBase:85 - Response body => {"timestamp":"2020-05-16T08:23:14.925+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:23:15 INFO  TestBase:86 - **************** Checking Status Code *****************
+2020-05-16 15:23:15 INFO  TestBase:89 - 
+2020-05-16 15:23:15 INFO  TestBase:90 - **************** Checking Content-Type *****************
+2020-05-16 15:23:15 INFO  TestBase:92 - Content-type => application/json
+2020-05-16 15:23:15 INFO  TestBase:94 - 
+2020-05-16 15:23:15 INFO  TestBase:35 - Id = output =Fail description =Invalid user id (empty)
+2020-05-16 15:23:16 INFO  TestBase:82 - *************** Checking Response Body ****************
+2020-05-16 15:23:16 INFO  TestBase:84 - 
+2020-05-16 15:23:16 INFO  TestBase:85 - Response body => {"timestamp":"2020-05-16T08:23:16.310+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:23:16 INFO  TestBase:86 - **************** Checking Status Code *****************
+2020-05-16 15:23:16 INFO  TestBase:89 - 
+2020-05-16 15:23:16 INFO  TestBase:90 - **************** Checking Content-Type *****************
+2020-05-16 15:23:16 INFO  TestBase:92 - Content-type => application/json
+2020-05-16 15:23:16 INFO  TestBase:94 - 
+2020-05-16 15:24:17 INFO  TestBase:35 - Id =Depend ID of 83833833834 output =Success description =All field ok, user exist and verified
+2020-05-16 15:24:20 INFO  TestBase:44 - {"idUser":"80"}
+2020-05-16 15:24:22 INFO  TestBase:55 - *************** Checking Response Body ****************
+2020-05-16 15:24:22 INFO  TestBase:57 - 
+2020-05-16 15:24:22 INFO  TestBase:58 - Response body => {"timestamp":"2020-05-16T08:24:22.212+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:24:22 INFO  TestBase:59 - **************** Checking Status Code *****************
+2020-05-16 15:24:22 INFO  TestBase:35 - Id =1000 output =Fail description =User not registered
+2020-05-16 15:24:22 INFO  TestBase:44 - {"idUser":"1000"}
+2020-05-16 15:24:23 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:24:23 INFO  TestBase:83 - 
+2020-05-16 15:24:23 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:24:23.509+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:24:23 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:24:23 INFO  TestBase:88 - 
+2020-05-16 15:24:23 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:24:23 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:24:23 INFO  TestBase:93 - 
+2020-05-16 15:24:23 INFO  TestBase:35 - Id =a output =Fail description =Invalid user id (string)
+2020-05-16 15:24:23 INFO  TestBase:44 - {"idUser":"a"}
+2020-05-16 15:24:25 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:24:25 INFO  TestBase:83 - 
+2020-05-16 15:24:25 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:24:25.233+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:24:25 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:24:25 INFO  TestBase:88 - 
+2020-05-16 15:24:25 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:24:25 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:24:25 INFO  TestBase:93 - 
+2020-05-16 15:24:25 INFO  TestBase:35 - Id =@ output =Fail description =Invalid user id (symbol)
+2020-05-16 15:24:25 INFO  TestBase:44 - {"idUser":"@"}
+2020-05-16 15:24:26 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:24:26 INFO  TestBase:83 - 
+2020-05-16 15:24:26 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:24:26.593+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:24:26 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:24:26 INFO  TestBase:88 - 
+2020-05-16 15:24:26 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:24:26 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:24:26 INFO  TestBase:93 - 
+2020-05-16 15:24:26 INFO  TestBase:35 - Id = output =Fail description =Invalid user id (empty)
+2020-05-16 15:24:26 INFO  TestBase:44 - {"idUser":""}
+2020-05-16 15:24:28 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:24:28 INFO  TestBase:83 - 
+2020-05-16 15:24:28 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:24:28.122+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:24:28 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:24:28 INFO  TestBase:88 - 
+2020-05-16 15:24:28 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:24:28 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:24:28 INFO  TestBase:93 - 
+2020-05-16 15:25:11 INFO  TestBase:35 - Id =Depend ID of 83833833834 output =Success description =All field ok, user exist and verified
+2020-05-16 15:25:14 INFO  TestBase:44 - {"idUser":80}
+2020-05-16 15:25:15 INFO  TestBase:55 - *************** Checking Response Body ****************
+2020-05-16 15:25:15 INFO  TestBase:57 - 
+2020-05-16 15:25:15 INFO  TestBase:58 - Response body => {"timestamp":"2020-05-16T08:25:15.325+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:25:15 INFO  TestBase:59 - **************** Checking Status Code *****************
+2020-05-16 15:25:15 INFO  TestBase:35 - Id =1000 output =Fail description =User not registered
+2020-05-16 15:25:15 INFO  TestBase:44 - {"idUser":80}
+2020-05-16 15:25:17 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:25:17 INFO  TestBase:83 - 
+2020-05-16 15:25:17 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:25:16.738+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:25:17 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:25:17 INFO  TestBase:88 - 
+2020-05-16 15:25:17 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:25:17 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:25:17 INFO  TestBase:93 - 
+2020-05-16 15:25:17 INFO  TestBase:35 - Id =a output =Fail description =Invalid user id (string)
+2020-05-16 15:25:17 INFO  TestBase:44 - {"idUser":80}
+2020-05-16 15:25:19 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:25:19 INFO  TestBase:83 - 
+2020-05-16 15:25:19 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:25:19.169+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:25:19 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:25:19 INFO  TestBase:88 - 
+2020-05-16 15:25:19 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:25:19 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:25:19 INFO  TestBase:93 - 
+2020-05-16 15:25:19 INFO  TestBase:35 - Id =@ output =Fail description =Invalid user id (symbol)
+2020-05-16 15:25:19 INFO  TestBase:44 - {"idUser":80}
+2020-05-16 15:25:21 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:25:21 INFO  TestBase:83 - 
+2020-05-16 15:25:21 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:25:20.982+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:25:21 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:25:21 INFO  TestBase:88 - 
+2020-05-16 15:25:21 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:25:21 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:25:21 INFO  TestBase:93 - 
+2020-05-16 15:25:21 INFO  TestBase:35 - Id = output =Fail description =Invalid user id (empty)
+2020-05-16 15:25:21 INFO  TestBase:44 - {"idUser":80}
+2020-05-16 15:25:22 INFO  TestBase:81 - *************** Checking Response Body ****************
+2020-05-16 15:25:22 INFO  TestBase:83 - 
+2020-05-16 15:25:22 INFO  TestBase:84 - Response body => {"timestamp":"2020-05-16T08:25:22.664+0000","status":404,"error":"Not Found","message":"No message available","path":"/api/paystore/getProfile"}
+2020-05-16 15:25:22 INFO  TestBase:85 - **************** Checking Status Code *****************
+2020-05-16 15:25:22 INFO  TestBase:88 - 
+2020-05-16 15:25:22 INFO  TestBase:89 - **************** Checking Content-Type *****************
+2020-05-16 15:25:22 INFO  TestBase:91 - Content-type => application/json
+2020-05-16 15:25:22 INFO  TestBase:93 - 
+2020-05-16 15:26:20 INFO  TestBase:35 - Id =Depend ID of 83833833834 output =Success description =All field ok, user exist and verified
+2020-05-16 15:26:25 INFO  TestBase:54 - *************** Checking Response Body ****************
+2020-05-16 15:26:25 INFO  TestBase:56 - 
+2020-05-16 15:26:25 INFO  TestBase:57 - Response body => {"data":{"idUser":80,"name":"Muhammad Yogie","email":"yoginugrohoo@gmail.com","password":"Password123@","phoneNumber":"83833833834","balance":200000.0,"token":8509},"message":"User profile has successfully sent","status":"200"}
+2020-05-16 15:26:25 INFO  TestBase:58 - **************** Checking Status Code *****************
+2020-05-16 15:26:25 INFO  TestBase:61 - 
+2020-05-16 15:26:25 INFO  TestBase:62 - **************** Checking Content-Type *****************
+2020-05-16 15:26:25 INFO  TestBase:64 - Content-type => application/json
+2020-05-16 15:26:25 INFO  TestBase:66 - 
+2020-05-16 15:26:25 INFO  TestBase:35 - Id =1000 output =Fail description =User not registered
+2020-05-16 15:26:27 INFO  TestBase:80 - *************** Checking Response Body ****************
+2020-05-16 15:26:27 INFO  TestBase:82 - 
+2020-05-16 15:26:27 INFO  TestBase:83 - Response body => {"message":"User not found","status":"404"}
+2020-05-16 15:26:27 INFO  TestBase:84 - **************** Checking Status Code *****************
+2020-05-16 15:26:27 INFO  TestBase:87 - 
+2020-05-16 15:26:27 INFO  TestBase:88 - **************** Checking Content-Type *****************
+2020-05-16 15:26:27 INFO  TestBase:90 - Content-type => application/json
+2020-05-16 15:26:27 INFO  TestBase:92 - 
+2020-05-16 15:26:27 INFO  TestBase:35 - Id =a output =Fail description =Invalid user id (string)
+2020-05-16 15:26:28 INFO  TestBase:80 - *************** Checking Response Body ****************
+2020-05-16 15:26:28 INFO  TestBase:82 - 
+2020-05-16 15:26:28 INFO  TestBase:83 - Response body => {"timestamp":"2020-05-16T08:26:28.510+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize value of type `long` from String \"a\": not a valid Long value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `long` from String \"a\": not a valid Long value\n at [Source: (PushbackInputStream); line: 1, column: 11] (through reference chain: com.paystore.model.User[\"idUser\"])","path":"/api/paystore/user/getProfile"}
+2020-05-16 15:26:28 INFO  TestBase:84 - **************** Checking Status Code *****************
+2020-05-16 15:26:28 INFO  TestBase:35 - Id =@ output =Fail description =Invalid user id (symbol)
+2020-05-16 15:26:30 INFO  TestBase:80 - *************** Checking Response Body ****************
+2020-05-16 15:26:30 INFO  TestBase:82 - 
+2020-05-16 15:26:30 INFO  TestBase:83 - Response body => {"timestamp":"2020-05-16T08:26:30.231+0000","status":400,"error":"Bad Request","message":"JSON parse error: Cannot deserialize value of type `long` from String \"@\": not a valid Long value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `long` from String \"@\": not a valid Long value\n at [Source: (PushbackInputStream); line: 1, column: 11] (through reference chain: com.paystore.model.User[\"idUser\"])","path":"/api/paystore/user/getProfile"}
+2020-05-16 15:26:30 INFO  TestBase:84 - **************** Checking Status Code *****************
+2020-05-16 15:26:30 INFO  TestBase:35 - Id = output =Fail description =Invalid user id (empty)
+2020-05-16 15:26:32 INFO  TestBase:80 - *************** Checking Response Body ****************
+2020-05-16 15:26:32 INFO  TestBase:82 - 
+2020-05-16 15:26:32 INFO  TestBase:83 - Response body => {"message":"User not found","status":"404"}
+2020-05-16 15:26:32 INFO  TestBase:84 - **************** Checking Status Code *****************
+2020-05-16 15:26:32 INFO  TestBase:87 - 
+2020-05-16 15:26:32 INFO  TestBase:88 - **************** Checking Content-Type *****************
+2020-05-16 15:26:32 INFO  TestBase:90 - Content-type => application/json
+2020-05-16 15:26:32 INFO  TestBase:92 - 
+2020-05-17 15:04:05 INFO  TestBase:21 - Test Case ID :TC_001- Description :Test Register Account API with positive path (All Valid)
+2020-05-17 15:04:19 INFO  TestBase:21 - Test Case ID :TC_002- Description :Test Register Account API if User Exist (email exist)
+2020-05-17 15:04:31 INFO  TestBase:21 - Test Case ID :TC_003- Description :Test Register Account API if User Exist (phone number exist)
+2020-05-17 15:04:48 INFO  TestBase:21 - Test Case ID :TC_001- Description :Test Register Account API with positive path (All Valid)
+2020-05-17 15:05:01 INFO  TestBase:21 - Test Case ID :TC_002- Description :Test Register Account API if User Exist (email exist)
+2020-05-17 15:05:13 INFO  TestBase:21 - Test Case ID :TC_003- Description :Test Register Account API if User Exist (phone number exist)
+2020-05-17 15:05:25 INFO  TestBase:21 - Test Case ID :TC_004- Description :Test Register Account API with invalid name (less than 3 char)
+2020-05-17 15:05:27 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:05:27 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:05:29 INFO  TestBase:21 - Test Case ID :TC_005- Description :Test Register Account API with invalid name (more than 20 char)
+2020-05-17 15:05:31 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:05:31 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:05:32 INFO  TestBase:21 - Test Case ID :TC_006- Description :Test Register Account API with invalid name (contain digit)
+2020-05-17 15:05:34 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:05:34 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:05:36 INFO  TestBase:21 - Test Case ID :TC_007- Description :Test Register Account API with invalid name (contain symbol)
+2020-05-17 15:05:37 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:05:37 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:05:38 INFO  TestBase:21 - Test Case ID :TC_008- Description :Test Register Account API with invalid name (empty field)
+2020-05-17 15:05:40 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:05:40 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:05:41 INFO  TestBase:21 - Test Case ID :TC_009- Description :Test Register Account API with invalid email (missing domain name)
+2020-05-17 15:05:42 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:05:42 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:05:44 INFO  TestBase:21 - Test Case ID :TC_010- Description :Test Register Account API with invalid email (missing top level domain)
+2020-05-17 15:05:46 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:05:46 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:05:47 INFO  TestBase:21 - Test Case ID :TC_011- Description :Test Register Account API with invalid email (recepient name missing)
+2020-05-17 15:05:49 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:05:49 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:05:51 INFO  TestBase:21 - Test Case ID :TC_012- Description :Test Register Account API with invalid email (missing @ symbol)
+2020-05-17 15:05:53 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:05:53 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:05:54 INFO  TestBase:21 - Test Case ID :TC_013- Description :Test Register Account API with invalid email (double @ symbol)
+2020-05-17 15:05:56 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:05:56 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:05:58 INFO  TestBase:21 - Test Case ID :TC_014- Description :Test Register Account API with invalid email (contain whitespace)
+2020-05-17 15:05:59 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:05:59 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:06:01 INFO  TestBase:21 - Test Case ID :TC_015- Description :Test Register Account API with invalid email (empty field)
+2020-05-17 15:06:03 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:03 INFO  TestBase:68 - Status code => 403
+2020-05-17 15:06:03 INFO  TestBase:21 - Test Case ID :TC_016- Description :Test Register Account API with invalid phone number (less than 9 digit)
+2020-05-17 15:06:04 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:04 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:06:06 INFO  TestBase:21 - Test Case ID :TC_017- Description :Test Register Account API with invalid phone number (more than 12 digit)
+2020-05-17 15:06:07 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:07 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:06:09 INFO  TestBase:21 - Test Case ID :TC_018- Description :Test Register Account API with invalid phone number (contain symbol)
+2020-05-17 15:06:10 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:10 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:06:12 INFO  TestBase:21 - Test Case ID :TC_019- Description :Test Register Account API with invalid phone number (contain alphabet)
+2020-05-17 15:06:13 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:13 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:06:15 INFO  TestBase:21 - Test Case ID :TC_020- Description :Test Register Account API with invalid phone number (contain whitespace)
+2020-05-17 15:06:17 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:17 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:06:18 INFO  TestBase:21 - Test Case ID :TC_021- Description :Test Register Account API with invalid phone number (empty field)
+2020-05-17 15:06:20 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:20 INFO  TestBase:68 - Status code => 403
+2020-05-17 15:06:20 INFO  TestBase:21 - Test Case ID :TC_022- Description :Test Register Account API with invalid password (less than 8 char)
+2020-05-17 15:06:21 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:21 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:06:23 INFO  TestBase:21 - Test Case ID :TC_023- Description :Test Register Account API with invalid password (more than 20 char)
+2020-05-17 15:06:24 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:24 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:06:26 INFO  TestBase:21 - Test Case ID :TC_024- Description :Test Register Account API with invalid password (no digit)
+2020-05-17 15:06:28 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:28 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:06:29 INFO  TestBase:21 - Test Case ID :TC_025- Description :Test Register Account API with invalid password (no uppercase)
+2020-05-17 15:06:31 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:31 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:06:33 INFO  TestBase:21 - Test Case ID :TC_026- Description :Test Register Account API with invalid password (no lowercase)
+2020-05-17 15:06:35 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:35 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:06:36 INFO  TestBase:21 - Test Case ID :TC_027- Description :Test Register Account API with invalid password (no symbol)
+2020-05-17 15:06:37 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:37 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:06:39 INFO  TestBase:21 - Test Case ID :TC_028- Description :Test Register Account API with invalid password (contain whitespace)
+2020-05-17 15:06:40 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:40 INFO  TestBase:68 - Status code => 201
+2020-05-17 15:06:42 INFO  TestBase:21 - Test Case ID :TC_029- Description :Test Register Account API with invalid password (empty)
+2020-05-17 15:06:44 INFO  TestBase:66 - **************** Checking Status Code *****************
+2020-05-17 15:06:44 INFO  TestBase:68 - Status code => 201

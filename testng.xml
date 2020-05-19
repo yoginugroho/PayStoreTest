@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APISuite">
+<listeners>
+<listener class-name="com.api.utilities.Listeners"/>
+</listeners>
+	<test thread-count="1" name="APITest" preserve-order="true">
+		<classes>
+			<class name="com.api.testcases.TS_001_CreateAccount"/>
+			<class name="com.api.testcases.TS_002_Login"/>
+			<class name="com.api.testcases.TS_003_SendOTP"/>
+			<class name="com.api.testcases.TS_004_GetUserProfile"/>
+			<class name="com.api.testcases.TS_005_GetUnpaidBill"/>
+			<class name="com.api.testcases.TS_006_InsertPayment"/>
+			<class name="com.api.testcases.TS_007_VerifyPayment"/>
+			<class name="com.api.testcases.TS_008_GetUserPaymentHistory"/>
+			<class name="com.api.testcases.CleanUpEverything"/>
+		</classes>
+	</test>
+</suite>

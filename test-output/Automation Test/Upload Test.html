@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Upload Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Upload Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 28 23:00:44 WIB 2020</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5462 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='apiTest.GetAllRequest.login()'><b>login</b><br>Test class: apiTest.GetAllRequest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.GetAllRequest@4ef37659</td></tr>
+<tr>
+<td title='apiTest.GetIDRequest.login()'><b>login</b><br>Test class: apiTest.GetIDRequest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.GetIDRequest@776b83cc</td></tr>
+<tr>
+<td title='apiTest.PostRequest.login()'><b>login</b><br>Test class: apiTest.PostRequest</td>
+<td></td>
+<td>0</td>
+<td>apiTest.PostRequest@37858383</td></tr>
+<tr>
+<td title='apiTest.GetAllRequest.requestGetAll()'><b>requestGetAll</b><br>Test class: apiTest.GetAllRequest</td>
+<td></td>
+<td>1</td>
+<td>apiTest.GetAllRequest@4ef37659</td></tr>
+<tr>
+<td title='apiTest.GetIDRequest.requestGetID()'><b>requestGetID</b><br>Test class: apiTest.GetIDRequest<br>Parameters: 1, 404</td>
+<td></td>
+<td>0</td>
+<td>apiTest.GetIDRequest@776b83cc</td></tr>
+<tr>
+<td title='apiTest.GetIDRequest.requestGetID()'><b>requestGetID</b><br>Test class: apiTest.GetIDRequest<br>Parameters: 832, 200</td>
+<td></td>
+<td>0</td>
+<td>apiTest.GetIDRequest@776b83cc</td></tr>
+<tr>
+<td title='apiTest.PostRequest.requestPost()'><b>requestPost</b><br>Test class: apiTest.PostRequest<br>Parameters: Vincent, Rompies, male, 1996-12-18, user41@gmail.com, 0888123123, http://net.tv, Jl. Merbabu, active, valid</td>
+<td></td>
+<td>0</td>
+<td>apiTest.PostRequest@37858383</td></tr>
+<tr>
+<td title='apiTest.PostRequest.requestPost()'><b>requestPost</b><br>Test class: apiTest.PostRequest<br>Parameters: Vincent, Rompies, male, 1996-12-18, user41@gmail.com, 0888123123, http://net.tv, Jl. Merbabu, active, invalid</td>
+<td></td>
+<td>0</td>
+<td>apiTest.PostRequest@37858383</td></tr>
+<tr>
+<td title='apiTest.PostRequest.requestPost()'><b>requestPost</b><br>Test class: apiTest.PostRequest<br>Parameters: Vincent, Rompies, male, 1996-12-18, user, 0888123123, http://net.tv, Jl. Merbabu, active, invalid</td>
+<td></td>
+<td>0</td>
+<td>apiTest.PostRequest@37858383</td></tr>
+<tr>
+<td title='apiTest.PostRequest.requestPost()'><b>requestPost</b><br>Test class: apiTest.PostRequest<br>Parameters: Vincent, Rompies, male, 1996-12-18, user42@gmail.com, 0888123123, net.tv, Jl. Merbabu, active, invalid</td>
+<td></td>
+<td>0</td>
+<td>apiTest.PostRequest@37858383</td></tr>
+<tr>
+<td title='apiTest.PostRequest.requestPost()'><b>requestPost</b><br>Test class: apiTest.PostRequest<br>Parameters: , Rompies, male, 1996-12-18, user43@gmail.com, 0888123123, http://net.tv, Jl. Merbabu, active, invalid</td>
+<td></td>
+<td>0</td>
+<td>apiTest.PostRequest@37858383</td></tr>
+<tr>
+<td title='apiTest.PostRequest.requestPost()'><b>requestPost</b><br>Test class: apiTest.PostRequest<br>Parameters: Vincent, , male, 1996-12-18, user44@gmail.com, 0888123123, http://net.tv, Jl. Merbabu, active, invalid</td>
+<td></td>
+<td>0</td>
+<td>apiTest.PostRequest@37858383</td></tr>
+<tr>
+<td title='apiTest.PostRequest.requestPost()'><b>requestPost</b><br>Test class: apiTest.PostRequest<br>Parameters: Vincent, Rompies, , 1996-12-18, user45@gmail.com, 0888123123, http://net.tv, Jl. Merbabu, active, invalid</td>
+<td></td>
+<td>0</td>
+<td>apiTest.PostRequest@37858383</td></tr>
+<tr>
+<td title='apiTest.PostRequest.requestPost()'><b>requestPost</b><br>Test class: apiTest.PostRequest<br>Parameters: Vincent, Rompies, male, 1996-12-18, , 0888123123, http://net.tv, Jl. Merbabu, active, invalid</td>
+<td></td>
+<td>0</td>
+<td>apiTest.PostRequest@37858383</td></tr>
+</table><p>
+</body>
+</html>

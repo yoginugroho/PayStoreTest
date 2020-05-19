@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [APISuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.api.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="APITest(failed)">
+    <classes>
+      <class name="com.api.testcases.TS_006_InsertPayment">
+        <methods>
+          <include name="firstLogMessage"/>
+          <include name="setUp"/>
+          <include name="insertPaymentTest" invocation-numbers="5 6"/>
+          <include name="createBillData"/>
+        </methods>
+      </class> <!-- com.api.testcases.TS_006_InsertPayment -->
+      <class name="com.api.testcases.TS_007_VerifyPayment">
+        <methods>
+          <include name="verifyPaymentTest" invocation-numbers="2 3"/>
+          <include name="insertSomePayment"/>
+          <include name="createBillData"/>
+          <include name="setUp"/>
+          <include name="firstLogMessage"/>
+        </methods>
+      </class> <!-- com.api.testcases.TS_007_VerifyPayment -->
+      <class name="com.api.testcases.TS_002_Login">
+        <methods>
+          <include name="setUp"/>
+          <include name="firstLogMessage"/>
+          <include name="loginTest" invocation-numbers="6"/>
+        </methods>
+      </class> <!-- com.api.testcases.TS_002_Login -->
+      <class name="com.api.testcases.TS_003_SendOTP">
+        <methods>
+          <include name="firstLogMessage"/>
+          <include name="sendOTPTest" invocation-numbers="0 1 2 3 5"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.api.testcases.TS_003_SendOTP -->
+      <class name="com.api.testcases.TS_001_CreateAccount">
+        <methods>
+          <include name="setUp"/>
+          <include name="firstLogMessage"/>
+          <include name="createAccountTest" invocation-numbers="16"/>
+        </methods>
+      </class> <!-- com.api.testcases.TS_001_CreateAccount -->
+    </classes>
+  </test> <!-- APITest(failed) -->
+</suite> <!-- Failed suite [APISuite] -->

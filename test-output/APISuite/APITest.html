@@ -1,0 +1,1572 @@
+<html>
+<head>
+<title>TestNG:  APITest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>APITest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>138/11/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 19 11:36:20 WIB 2020</td>
+</tr>
+<tr><td>Total time:</td><td>571 seconds (571376 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_017, Test Register Account API with invalid phone number (more than 12 digit), Muhammad Yogie, yoginugrohoo2@gmail.com, 8383383383567, Password123@, Fail, 403, Invalid phone</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;403&gt; but was &lt;201&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at com.api.testcases.TS_001_CreateAccount.createAccountTest(TS_001_CreateAccount.java:79)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace885481831", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace885481831'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;403&gt; but was &lt;201&gt;.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at com.api.testcases.TS_001_CreateAccount.createAccountTest(TS_001_CreateAccount.java:79)
+	at jdk.internal.reflect.GeneratedMethodAccessor100.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_089, Test Insert Payment API if user already insert payment (method : wallet balance), Depend#83833833834, Depend#02111111111, 1, 1000000, 403, Pay your bill to finish the transaction</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: a string containing &quot;Pay your bill to finish the transaction&quot;
+  Actual: [data:[:], message:Pay your bill to finish the transaction, status:403]
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:97)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.content(ValidatableResponseOptionsImpl.java:89)
+	at com.api.testcases.TS_006_InsertPayment.insertPaymentTest(TS_006_InsertPayment.java:113)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1275768911", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1275768911'><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: a string containing &quot;Pay your bill to finish the transaction&quot;
+  Actual: [data:[:], message:Pay your bill to finish the transaction, status:403]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:97)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.content(ValidatableResponseOptionsImpl.java:89)
+	at com.api.testcases.TS_006_InsertPayment.insertPaymentTest(TS_006_InsertPayment.java:113)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_090, Test Insert Payment API if user already insert payment (method : bank transfer), Depend#83833833834, Depend#02122222222, 2, 1000000, 403, Pay your bill to finish the transaction</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: a string containing &quot;Pay your bill to finish the transaction&quot;
+  Actual: [data:[:], message:Pay your bill to finish the transaction, status:403]
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:97)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.content(ValidatableResponseOptionsImpl.java:89)
+	at com.api.testcases.TS_006_InsertPayment.insertPaymentTest(TS_006_InsertPayment.java:113)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2039613101", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2039613101'><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: a string containing &quot;Pay your bill to finish the transaction&quot;
+  Actual: [data:[:], message:Pay your bill to finish the transaction, status:403]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:97)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.content(ValidatableResponseOptionsImpl.java:89)
+	at com.api.testcases.TS_006_InsertPayment.insertPaymentTest(TS_006_InsertPayment.java:113)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_036, Test Login Account API with invalid phone number (more than 12 digit), 8383383383567, Password123@, Fail, 403, Invalid phone number</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: a string containing &quot;Invalid phone number&quot;
+  Actual: [data:[:], message:Phone number or password wrong, status:403]
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:97)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.content(ValidatableResponseOptionsImpl.java:89)
+	at com.api.testcases.TS_002_Login.loginTest(TS_002_Login.java:73)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace35539019", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace35539019'><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: a string containing &quot;Invalid phone number&quot;
+  Actual: [data:[:], message:Phone number or password wrong, status:403]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:97)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.content(ValidatableResponseOptionsImpl.java:89)
+	at com.api.testcases.TS_002_Login.loginTest(TS_002_Login.java:73)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_049, Test Send OTP API if user exist, phone number true & email true , 83833833834, yoginugrohoo@gmail.com, Success, 201, -</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at com.api.testcases.TS_003_SendOTP.sendOTPTest(TS_003_SendOTP.java:47)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1383273534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1383273534'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at com.api.testcases.TS_003_SendOTP.sendOTPTest(TS_003_SendOTP.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_050, Test Send OTP API if user exist, phone number false but email true, 83833833833, yoginugrohoo@gmail.com, Success, 201, -</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at com.api.testcases.TS_003_SendOTP.sendOTPTest(TS_003_SendOTP.java:47)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace139982666", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace139982666'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at com.api.testcases.TS_003_SendOTP.sendOTPTest(TS_003_SendOTP.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_051, Test Send OTP API if user exist, phone number true but email false, 83833833834, yoginugroh@gmail.com, Success, 201, -</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at com.api.testcases.TS_003_SendOTP.sendOTPTest(TS_003_SendOTP.java:47)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1246754285", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1246754285'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at com.api.testcases.TS_003_SendOTP.sendOTPTest(TS_003_SendOTP.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_052, Test Send OTP API if user not exist, 83833833833, yoginugroh@gmail.com, Success, 201, -</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at com.api.testcases.TS_003_SendOTP.sendOTPTest(TS_003_SendOTP.java:47)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace546200355", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace546200355'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;500&gt;.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at com.api.testcases.TS_003_SendOTP.sendOTPTest(TS_003_SendOTP.java:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_054, Test Send OTP API with invalid phone number (more than 12 digit), 8383383383567, yoginugrohoo@gmail.com, Fail, 403, Invalid phone number</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;403&gt; but was &lt;500&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at com.api.testcases.TS_003_SendOTP.sendOTPTest(TS_003_SendOTP.java:61)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace604081291", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace604081291'><pre>java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;403&gt; but was &lt;500&gt;.
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at com.api.testcases.TS_003_SendOTP.sendOTPTest(TS_003_SendOTP.java:61)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_104, Test Verify Payment API if user not insert payment first (payment method : wallet balance), Depend#83833833834, Depend#02444444444, 1, 403, You must do the payment transaction first</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: a string containing &quot;You must do the payment transaction first&quot;
+  Actual: [data:[:], message:You must do the payment transaction first, status:403]
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:97)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.content(ValidatableResponseOptionsImpl.java:89)
+	at com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest(TS_007_VerifyPayment.java:122)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace264686278", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace264686278'><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: a string containing &quot;You must do the payment transaction first&quot;
+  Actual: [data:[:], message:You must do the payment transaction first, status:403]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:97)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.content(ValidatableResponseOptionsImpl.java:89)
+	at com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest(TS_007_VerifyPayment.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_105, Test Verify Payment API if user not insert payment first (payment method : bank transfer), Depend#83833833834, Depend#02455555555, 2, 403, You must do the payment transaction first</td>
+<td><div><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: a string containing &quot;You must do the payment transaction first&quot;
+  Actual: [data:[:], message:You must do the payment transaction first, status:403]
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:97)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.content(ValidatableResponseOptionsImpl.java:89)
+	at com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest(TS_007_VerifyPayment.java:122)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace120561697", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace120561697'><pre>java.lang.AssertionError: 1 expectation failed.
+Response body doesn&apos;t match expectation.
+Expected: a string containing &quot;You must do the payment transaction first&quot;
+  Actual: [data:[:], message:You must do the payment transaction first, status:403]
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:494)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:169)
+	at io.restassured.internal.ResponseSpecificationImpl.content(ResponseSpecificationImpl.groovy:97)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.content(ValidatableResponseOptionsImpl.java:89)
+	at com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest(TS_007_VerifyPayment.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.api.testcases.CleanUpEverything.cleanUp()'><b>cleanUp</b><br>Test class: com.api.testcases.CleanUpEverything</td>
+<td></td>
+<td>75</td>
+<td>com.api.testcases.CleanUpEverything@394a2528</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_001, Test Register Account API with positive path (All Valid), Muhammad Yogie, yoginugrohoo@gmail.com, 83833833834, Password123@, Success, 201, Account has successfully created</td>
+<td></td>
+<td>4</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_002, Test Register Account API if User Exist (email exist), Muhammad Yogie, yoginugrohoo@gmail.com, 83833833835, Password123@, Fail, 403, Email already registered</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_003, Test Register Account API if User Exist (phone number exist), Muhammad Yogie, yoginugrohoo2@gmail.com, 83833833834, Password123@, Fail, 403, Phone number already registered</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_004, Test Register Account API with invalid name (less than 3 char), Mu, yoginugrohoo2@gmail.com, 83833833835, Password123@, Fail, 403, Invalid name</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_005, Test Register Account API with invalid name (more than 20 char), Muhammad Yogie Nugroh, yoginugrohoo2@gmail.com, 83833833835, Password123@, Fail, 403, Invalid name</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_006, Test Register Account API with invalid name (contain digit), Muhammad Yogie123, yoginugrohoo2@gmail.com, 83833833835, Password123@, Fail, 403, Invalid name</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_007, Test Register Account API with invalid name (contain symbol), Muhammad Yogie@, yoginugrohoo2@gmail.com, 83833833835, Password123@, Fail, 403, Invalid name</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_008, Test Register Account API with invalid name (empty field), , yoginugrohoo2@gmail.com, 83833833835, Password123@, Fail, 403, Invalid name</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_009, Test Register Account API with invalid email (missing domain name), Muhammad Yogie, yoginugrohoo2@.com, 83833833835, Password123@, Fail, 403, Invalid email</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_010, Test Register Account API with invalid email (missing top level domain), Muhammad Yogie, yoginugrohoo2@gmail, 83833833835, Password123@, Fail, 403, Invalid email</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_011, Test Register Account API with invalid email (recepient name missing), Muhammad Yogie, @gmail.com, 83833833835, Password123@, Fail, 403, Invalid email</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_012, Test Register Account API with invalid email (missing @ symbol), Muhammad Yogie, yoginugrohoo2gmail.com, 83833833835, Password123@, Fail, 403, Invalid email</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_013, Test Register Account API with invalid email (double @ symbol), Muhammad Yogie, yoginugrohoo2@@gmail.com, 83833833835, Password123@, Fail, 403, Invalid email</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_014, Test Register Account API with invalid email (contain whitespace), Muhammad Yogie, yogi nugrohoo2@gmail.com, 83833833835, Password123@, Fail, 403, Invalid email</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_015, Test Register Account API with invalid email (empty field), Muhammad Yogie, , 83833833835, Password123@, Fail, 403, Invalid email</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_016, Test Register Account API with invalid phone number (less than 9 digit), Muhammad Yogie, yoginugrohoo2@gmail.com, 83833833, Password123@, Fail, 403, Invalid phone</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_018, Test Register Account API with invalid phone number (contain symbol), Muhammad Yogie, yoginugrohoo2@gmail.com, @@@, Password123@, Fail, 403, Invalid phone</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_019, Test Register Account API with invalid phone number (contain alphabet), Muhammad Yogie, yoginugrohoo2@gmail.com, abc, Password123@, Fail, 403, Invalid phone</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_020, Test Register Account API with invalid phone number (contain whitespace), Muhammad Yogie, yoginugrohoo2@gmail.com, 6283 833833835, Password123@, Fail, 403, Invalid phone</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_021, Test Register Account API with invalid phone number (empty field), Muhammad Yogie, yoginugrohoo2@gmail.com, , Password123@, Fail, 403, Invalid phone</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_022, Test Register Account API with invalid password (less than 8 char), Muhammad Yogie, yoginugrohoo2@gmail.com, 6283833833835, Passw2@, Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_023, Test Register Account API with invalid password (more than 20 char), Muhammad Yogie, yoginugrohoo2@gmail.com, 6283833833835, Password123@Password1, Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_024, Test Register Account API with invalid password (no digit), Muhammad Yogie, yoginugrohoo2@gmail.com, 6283833833835, Password@, Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_025, Test Register Account API with invalid password (no uppercase), Muhammad Yogie, yoginugrohoo2@gmail.com, 6283833833835, password123@, Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_026, Test Register Account API with invalid password (no lowercase), Muhammad Yogie, yoginugrohoo2@gmail.com, 6283833833835, PASSWORD123@, Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_027, Test Register Account API with invalid password (no symbol), Muhammad Yogie, yoginugrohoo2@gmail.com, 6283833833835, Password123, Fail, 403, Invalid password</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_028, Test Register Account API with invalid password (contain whitespace), Muhammad Yogie, yoginugrohoo2@gmail.com, 6283833833835, Password123 @, Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_001_CreateAccount.createAccountTest()'><b>createAccountTest</b><br>Test class: com.api.testcases.TS_001_CreateAccount<br>Parameters: TC_029, Test Register Account API with invalid password (empty), Muhammad Yogie, yoginugrohoo2@gmail.com, 6283833833835, , , 403, Invalid password</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_001_CreateAccount@21b2e768</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: Wilson Fisk, 02222222222, February, 75000, paid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: Mat Murdock, 02233333333, February, 75000, unpaid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: Foggy Nelson, 02244444444, February, 75000, paid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: Foggy Nelson, 02244444444, March, 75000, unpaid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: Elektra Natchios, 02255555555, February, 75000, paid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: Elektra Natchios, 02255555555, March, 75000, paid</td>
+<td></td>
+<td>3</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: Karen Page, 02266666666, February, 75000, paid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: Karen Page, 02266666666, March, 75000, paid</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: Karen Page, 02266666666, April, 75000, unpaid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: Greyson Ace, 02277777777, February, 75000, paid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: Greyson Ace, 02277777777, March, 75000, paid</td>
+<td></td>
+<td>3</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: Greyson Ace, 0227777777, April, 75000, unpaid</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: Greyson Ace, 02277777777, May, 75000, unpaid</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: Ridwan Remin, 02111111111, May, 75000, unpaid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: Dodit Mulyanto, 02122222222, May, 75000, unpaid</td>
+<td></td>
+<td>3</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: Raditya Dika, 02133333333, May, 75000, unpaid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: Bintang Emon, 02144444444, May, 75000, unpaid</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: Fico fahriza, 02155555555, May, 75000, unpaid</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: Yuda Aldiansyah, 02166666666, May, 75000, unpaid</td>
+<td></td>
+<td>3</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: Ridwan Remin, 02411111111, May, 75000, unpaid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: Dodit Mulyanto, 02422222222, May, 75000, unpaid</td>
+<td></td>
+<td>3</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: Raditya Dika, 02433333333, May, 75000, unpaid</td>
+<td></td>
+<td>77</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: Bintang Emon, 02444444444, May, 75000, unpaid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: Fico fahriza, 02455555555, May, 75000, unpaid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.createBillData()'><b>createBillData</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: Yuda Aldiansyah, 02466666666, May, 75000, unpaid</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_004_GetUserProfile.getProfileTest()'><b>getProfileTest</b><br>Test class: com.api.testcases.TS_004_GetUserProfile<br>Parameters: TC_066, Test Get User Profile API if user exist, Depend#83833833834, Success, 200, User profile has successfully sent</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_004_GetUserProfile@2118cddf</td></tr>
+<tr>
+<td title='com.api.testcases.TS_004_GetUserProfile.getProfileTest()'><b>getProfileTest</b><br>Test class: com.api.testcases.TS_004_GetUserProfile<br>Parameters: TC_067, Test Get User Profile API if user not exist, 1000, Fail, 404, User not found</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_004_GetUserProfile@2118cddf</td></tr>
+<tr>
+<td title='com.api.testcases.TS_004_GetUserProfile.getProfileTest()'><b>getProfileTest</b><br>Test class: com.api.testcases.TS_004_GetUserProfile<br>Parameters: TC_068, Test Get User Profile API with invalid user id (contain alphabet), a, Fail, 400, JSON parse error</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_004_GetUserProfile@2118cddf</td></tr>
+<tr>
+<td title='com.api.testcases.TS_004_GetUserProfile.getProfileTest()'><b>getProfileTest</b><br>Test class: com.api.testcases.TS_004_GetUserProfile<br>Parameters: TC_069, Test Get User Profile API with invalid user id (contain symbol), @, Fail, 400, JSON parse error</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_004_GetUserProfile@2118cddf</td></tr>
+<tr>
+<td title='com.api.testcases.TS_004_GetUserProfile.getProfileTest()'><b>getProfileTest</b><br>Test class: com.api.testcases.TS_004_GetUserProfile<br>Parameters: TC_070, Test Get User Profile API with invalid user id (empty), , Fail, 404, User not found</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_004_GetUserProfile@2118cddf</td></tr>
+<tr>
+<td title='com.api.testcases.TS_008_GetUserPaymentHistory.getProfileTest()'><b>getProfileTest</b><br>Test class: com.api.testcases.TS_008_GetUserPaymentHistory<br>Parameters: TC_118, Test Get User Payment History API if user exist, Depend#83833833834, Success, 200, Payment history has successfully sent</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_008_GetUserPaymentHistory@11fc564b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_008_GetUserPaymentHistory.getProfileTest()'><b>getProfileTest</b><br>Test class: com.api.testcases.TS_008_GetUserPaymentHistory<br>Parameters: TC_119, Test Get User Payment History if user not exist, 1000, Fail, 404, Payment not found</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_008_GetUserPaymentHistory@11fc564b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_008_GetUserPaymentHistory.getProfileTest()'><b>getProfileTest</b><br>Test class: com.api.testcases.TS_008_GetUserPaymentHistory<br>Parameters: TC_120, Test Get User Payment History API with invalid user id (contain alphabet), a, Fail, 400, JSON parse error</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_008_GetUserPaymentHistory@11fc564b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_008_GetUserPaymentHistory.getProfileTest()'><b>getProfileTest</b><br>Test class: com.api.testcases.TS_008_GetUserPaymentHistory<br>Parameters: TC_121, Test Get User Payment History API with invalid user id (contain symbol), @, Fail, 400, JSON parse error</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_008_GetUserPaymentHistory@11fc564b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_008_GetUserPaymentHistory.getProfileTest()'><b>getProfileTest</b><br>Test class: com.api.testcases.TS_008_GetUserPaymentHistory<br>Parameters: TC_122, Test Get User Payment History API with invalid user id (empty), , Fail, 404, Payment not found</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_008_GetUserPaymentHistory@11fc564b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.getUnpaidBillTest()'><b>getUnpaidBillTest</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: TS_071, Test Get Telephone Bills API with positive test path (Registered Phone Number, have billing), 02233333333, Bill Sent, 200, Bill has successfully sent</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.getUnpaidBillTest()'><b>getUnpaidBillTest</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: TS_072, Test Get Telephone Bills API with positive test path (Registered Phone Number, 1 paid billing, 1 unpaid billing), 02244444444, Bill Sent, 200, Bill has successfully sent</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.getUnpaidBillTest()'><b>getUnpaidBillTest</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: TS_073, Test Get Telephone Bills API with positive test path (Registered Phone Number, 2 paid billing, 1 unpaid billing), 02266666666, Bill Sent, 200, Bill has successfully sent</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.getUnpaidBillTest()'><b>getUnpaidBillTest</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: TS_074, Test Get Telephone Bills API with positive test path (Registered Phone Number, 2 paid billing, 2 unpaid billing), 02277777777, Bill Sent, 200, Bill has successfully sent</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.getUnpaidBillTest()'><b>getUnpaidBillTest</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: TS_075, Test Get Telephone Bills API with negative test (valid data, phone number not registered), 02211111111, Not Found, 404, Bill not found</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.getUnpaidBillTest()'><b>getUnpaidBillTest</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: TS_076, Test Get Telephone Bills API with negative test (valid data, phone number registered but no billing), 02222222222, Not Found, 404, Bill not found</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.getUnpaidBillTest()'><b>getUnpaidBillTest</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: TS_077, Test Get Telephone Bills API with negative test (Registered Phone Number, 2 paid billing, 0 unpaid billing), 02255555555, Not Found, 404, Bill not found</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.getUnpaidBillTest()'><b>getUnpaidBillTest</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: TS_078, Test Get Telephone Bills API with invalid phone number (less than 8 digit), 0227777, Fail get bills, 403, Invalid phone number</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.getUnpaidBillTest()'><b>getUnpaidBillTest</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: TS_079, Test Get Telephone Bills API with invalid phone number (more than than 13 digit), 02277777777777, Fail get bills, 403, Invalid phone number</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.getUnpaidBillTest()'><b>getUnpaidBillTest</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: TS_081, Test Get Telephone Bills API with invalid phone number (contain symbol), 021758678577@, Fail get bills, 403, Invalid phone number</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.getUnpaidBillTest()'><b>getUnpaidBillTest</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: TS_082, Test Get Telephone Bills API with invalid phone number (contain alphabet), 021758678577a, Fail get bills, 403, Invalid phone number</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.getUnpaidBillTest()'><b>getUnpaidBillTest</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: TS_080, Test Get Telephone Bills API with invalid phone number (contain whitespace), 02175867 8577, Fail get bills, 403, Invalid phone number</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_005_GetUnpaidBill.getUnpaidBillTest()'><b>getUnpaidBillTest</b><br>Test class: com.api.testcases.TS_005_GetUnpaidBill<br>Parameters: TS_083, Test Get Telephone Bills API with invalid phone number (empty), , Fail get bills, 403, Invalid phone number</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_005_GetUnpaidBill@17a7f733</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_084, Test Insert Payment API with positive test path (pay with wallet balance), Depend#83833833834, Depend#02111111111, 1, 1000000, 201, Payment Pending</td>
+<td></td>
+<td>3</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_085, Test Insert Payment API with positive test path (pay with wallet bank transfer), Depend#83833833834, Depend#02122222222, 2, 1000000, 201, Payment Pending</td>
+<td></td>
+<td>4</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_086, Test Insert Payment API with unrecognized payment method, Depend#83833833834, Depend#02133333333, 500, 1000000, 404, Payment method not found</td>
+<td></td>
+<td>5</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_087, Test Insert Payment API with unregistered bill, Depend#83833833834, 1000, 1, 1000000, 404, Bill not found</td>
+<td></td>
+<td>5</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_088, Test Insert Payment API with unregistered user, 1000, Depend#02133333333, 1, 1000000, 404, User not found</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_091, Test Insert Payment API if wallet balance less than total amount billing, Depend#83833833834, Depend#02133333333, 1, 40000, 403, Insufficient balance please top up</td>
+<td></td>
+<td>3</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_092, Test Insert Payment API if wallet balance equals zero, Depend#83833833834, Depend#02133333333, 1, 0, 403, Insufficient balance please top up</td>
+<td></td>
+<td>4</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_093, Test Insert Payment API with invalid payment method (contain alphabet), Depend#83833833834, Depend#02133333333, abc, 1000000, 400, JSON parse error</td>
+<td></td>
+<td>5</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_094, Test Insert Payment API with invalid payment method (contain symbol), Depend#83833833834, Depend#02133333333, @, 1000000, 400, JSON parse error</td>
+<td></td>
+<td>5</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_095, Test Insert Payment API with invalid payment method (empty), Depend#83833833834, Depend#02133333333, , 1000000, 404, Payment method not found</td>
+<td></td>
+<td>5</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_096, Test Insert Payment API with invalid id bill (contain alphabet), Depend#83833833834, abc, 2, 1000000, 400, JSON parse error</td>
+<td></td>
+<td>5</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_097, Test Insert Payment API with invalid id bill (contain symbol), Depend#83833833834, @, 2, 1000000, 400, JSON parse error</td>
+<td></td>
+<td>5</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_098, Test Insert Payment API with invalid id bill (empty), Depend#83833833834, , 2, 1000000, 404, Bill not found</td>
+<td></td>
+<td>4</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_099, Test Insert Payment API with invalid id user(contain alphabet), abc, Depend#02133333333, 2, 1000000, 400, JSON parse error</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_100, Test Insert Payment API with invalid id user (contain symbol), @, Depend#02133333333, 2, 1000000, 400, JSON parse error</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_006_InsertPayment.insertPaymentTest()'><b>insertPaymentTest</b><br>Test class: com.api.testcases.TS_006_InsertPayment<br>Parameters: TS_101, Test Insert Payment API with invalid id user (empty), , Depend#02133333333, 2, 1000000, 404, User not found</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_006_InsertPayment@68567e20</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.insertSomePayment()'><b>insertSomePayment</b><br>Test class: com.api.testcases.TS_007_VerifyPayment</td>
+<td></td>
+<td>11</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_030, Test Login Account API with positive path (user exist, phone number true and password true), 83833833834, Password123@, Success, 200, success</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_031, Test Login Account API if user already login, 83833833834, Password123@, Success, 404, User is already logged in</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_032, Test Login Account API if user exist,  phone number true but password false, 83833833834, Password12@, Fail, 403, Phone number or password wrong</td>
+<td></td>
+<td>20</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_033, Test Login Account API if user exist,  phone number false but password true, 83833833833, Password12@, Fail, 403, Phone number or password wrong</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_034, Test Login Account API if user not exist, 83833833833, Password123@, Fail, 403, Phone number or password wrong</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_035, Test Login Account API with invalid phone number (less than 9 digit), 83833833, Password123@, Fail, 403, Invalid phone number</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_037, Test Login Account API with invalid phone number (contain symbol), @@@, Password123@, Fail, 403, Invalid phone number</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_038, Test Login Account API with invalid phone number (contain alphabet), abc, Password123@, Fail, 403, Invalid phone number</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_039, Test Login Account API with invalid phone number (contain whitespace), 6283 833833835, Password123@, Fail, 403, Invalid phone number</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_040, Test Login Account API with invalid phone number (empty field), , Password123@, Fail, 403, Invalid phone number</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_041, Test Login Account API with invalid password (less than 8 char), 83833833833, Passw2@, Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_042, Test Login Account API with invalid password (more than 20 char), 83833833833, Password123@Password1, Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_043, Test Login Account API with invalid password (no digit), 83833833833, Password@, Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_044, Test Login Account API with invalid password (no uppercase), 83833833833, password123@, Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_045, Test Login Account API with invalid password (no lowercase), 83833833833, PASSWORD123@, Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_046, Test Login Account API with invalid password (no symbol), 83833833833, Password123, Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_047, Test Login Account API with invalid password (contain whitespace), 83833833833, Password123 @, Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_002_Login.loginTest()'><b>loginTest</b><br>Test class: com.api.testcases.TS_002_Login<br>Parameters: TC_048, Test Login Account API with invalid password (empty), 83833833833, , Fail, 403, Invalid password</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_002_Login@57250572</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_053, Test Send OTP API with invalid phone number (less than 9 digit), 83833833, yoginugrohoo@gmail.com, Fail, 403, Invalid phone number</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_055, Test Send OTP API with invalid phone number (contain symbol), 8383383383@, yoginugrohoo@gmail.com, Fail, 403, Invalid phone number</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_056, Test Send OTP API with invalid phone number (contain alphabet), 8383383383b, yoginugrohoo@gmail.com, Fail, 403, Invalid phone number</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_057, Test Send OTP API with invalid phone number (contain whitespace), 83 833833834, yoginugrohoo@gmail.com, Fail, 403, Invalid phone number</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_058, Test Send OTP API with invalid phone number (empty field), , yoginugrohoo@gmail.com, Fail, 403, Invalid phone number</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_059, Test Send OTP API with invalid email (missing domain name), 83833833834, yoginugrohoo@.com, Fail, 403, Invalid email</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_060, Test Send OTP API with invalid email (missing top level domain), 83833833834, yoginugrohoo@gmail, Fail, 403, Invalid email</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_061, Test Send OTP API with invalid email (recepient name missing), 83833833834, @gmail.com, Fail, 403, Invalid email</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_062, Test Send OTP API with invalid email (missing @ symbol), 83833833834, yoginugrohoogmail.com, Fail, 403, Invalid email</td>
+<td></td>
+<td>3</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_063, Test Send OTP API with invalid email (double @ symbol), 83833833834, yoginugrohoo@@gmail.com, Fail, 403, Invalid email</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_064, Test Send OTP API with invalid email (contain whitespace), 83833833834, yogi nugrohoo@gmail.com, Fail, 403, Invalid email</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_003_SendOTP.sendOTPTest()'><b>sendOTPTest</b><br>Test class: com.api.testcases.TS_003_SendOTP<br>Parameters: TC_065, Test Send OTP API with invalid email (empty field), 83833833834, , Fail, 403, Invalid email</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_003_SendOTP@5609159b</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_102, Test Verify Payment API with positive test path (pay with wallet balance), Depend#83833833834, Depend#02411111111, 1, 200, Payment success</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_103, Test Verify Payment API with positive test path (pay with wallet bank transfer), Depend#83833833834, Depend#02422222222, 2, 200, Payment success</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_106, Test Verify Payment API with unrecognized payment method, Depend#83833833834, Depend#02433333333, 500, 404, Payment method not found</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_107, Test Verify Payment API with unregistered bill, Depend#83833833834, 1000, 1, 404, Bill not found</td>
+<td></td>
+<td>3</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_108, Test Verify Payment API with unregistered user, 1000, Depend#02433333333, 2, 404, User not found</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_109, Test Verify Payment API with invalid payment method (contain alphabet), Depend#83833833834, Depend#02433333333, abc, 400, JSON parse error</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_110, Test Verify Payment API with invalid payment method (contain symbol), Depend#83833833834, Depend#02433333333, @, 400, JSON parse error</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_111, Test Verify Payment API with invalid payment method (empty), Depend#83833833834, Depend#02433333333, , 404, Payment method not found</td>
+<td></td>
+<td>3</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_112, Test Verify Payment API with invalid id bill (contain alphabet), Depend#83833833834, abc, 2, 400, JSON parse error</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_113, Test Verify Payment API with invalid id bill (contain symbol), Depend#83833833834, @, 2, 400, JSON parse error</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_114, Test Verify Payment API with invalid id bill (empty), Depend#83833833834, , 2, 404, Bill not found</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_115, Test Verify Payment API with invalid id user (contain alphabet), abc, Depend#02433333333, 2, 400, JSON parse error</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_116, Test Verify Payment API with invalid id user (contain symbol), @, Depend#02433333333, 2, 400, JSON parse error</td>
+<td></td>
+<td>2</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+<tr>
+<td title='com.api.testcases.TS_007_VerifyPayment.verifyPaymentTest()'><b>verifyPaymentTest</b><br>Test class: com.api.testcases.TS_007_VerifyPayment<br>Parameters: TS_117, Test Verify Payment API with invalid id user (empty), , Depend#02433333333, 2, 404, User not found</td>
+<td></td>
+<td>1</td>
+<td>com.api.testcases.TS_007_VerifyPayment@76ed1b7c</td></tr>
+</table><p>
+</body>
+</html>
