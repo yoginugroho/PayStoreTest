@@ -93,26 +93,7 @@ public class XLSutils {
 		return dataXLS;
 	}
 
-	public void writeCellData(String path, String sheetName, Object[][] data) throws IOException {
-		InputStream inputStream = new FileInputStream(path);
-		HSSFWorkbook workbook = new HSSFWorkbook(inputStream);
-		HSSFSheet sheet = workbook.createSheet(sheetName);
-
-		int rowCount = 0;
-		for (Object[] rowData : data) {
-			HSSFRow row = sheet.createRow(++rowCount);
-			int columnCount = 0;
-			for (Object cellData : rowData) {
-				HSSFCell cell = row.createCell(++columnCount);
-				cell.setCellValue((String)cellData);
-			}
-		}
-
-		try (FileOutputStream outputStream = new FileOutputStream(path)) {
-			workbook.write(outputStream);
-			workbook.close();
-		}
-	}
+	
 
 
 }

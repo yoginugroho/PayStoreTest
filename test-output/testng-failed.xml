@@ -6,19 +6,26 @@
   </listeners>
   <test thread-count="5" name="APITest(failed)">
     <classes>
+      <class name="com.api.testcases.TS_004_GetUserProfile">
+        <methods>
+          <include name="getProfileTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="setUp"/>
+          <include name="firstLogMessage"/>
+        </methods>
+      </class> <!-- com.api.testcases.TS_004_GetUserProfile -->
       <class name="com.api.testcases.TS_006_InsertPayment">
         <methods>
           <include name="firstLogMessage"/>
           <include name="setUp"/>
-          <include name="insertPaymentTest" invocation-numbers="5 6"/>
-          <include name="createBillData"/>
+          <include name="insertPaymentTest"/>
+          <include name="createBillData" invocation-numbers="0 1 2 3 4 5"/>
         </methods>
       </class> <!-- com.api.testcases.TS_006_InsertPayment -->
       <class name="com.api.testcases.TS_007_VerifyPayment">
         <methods>
-          <include name="verifyPaymentTest" invocation-numbers="2 3"/>
+          <include name="verifyPaymentTest"/>
           <include name="insertSomePayment"/>
-          <include name="createBillData"/>
+          <include name="createBillData" invocation-numbers="0 1 2 3 4 5"/>
           <include name="setUp"/>
           <include name="firstLogMessage"/>
         </methods>
@@ -27,13 +34,27 @@
         <methods>
           <include name="setUp"/>
           <include name="firstLogMessage"/>
-          <include name="loginTest" invocation-numbers="6"/>
+          <include name="loginTest"/>
         </methods>
       </class> <!-- com.api.testcases.TS_002_Login -->
+      <class name="com.api.testcases.CleanUpEverything">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.api.testcases.CleanUpEverything -->
+      <class name="com.api.testcases.TS_005_GetUnpaidBill">
+        <methods>
+          <include name="getUnpaidBillTest"/>
+          <include name="setUp"/>
+          <include name="firstLogMessage"/>
+          <include name="createBillData" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12"/>
+        </methods>
+      </class> <!-- com.api.testcases.TS_005_GetUnpaidBill -->
       <class name="com.api.testcases.TS_003_SendOTP">
         <methods>
           <include name="firstLogMessage"/>
-          <include name="sendOTPTest" invocation-numbers="0 1 2 3 5"/>
+          <include name="sendOTPTest" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.api.testcases.TS_003_SendOTP -->
@@ -41,9 +62,16 @@
         <methods>
           <include name="setUp"/>
           <include name="firstLogMessage"/>
-          <include name="createAccountTest" invocation-numbers="16"/>
+          <include name="createAccountTest" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28"/>
         </methods>
       </class> <!-- com.api.testcases.TS_001_CreateAccount -->
+      <class name="com.api.testcases.TS_008_GetUserPaymentHistory">
+        <methods>
+          <include name="firstLogMessage"/>
+          <include name="setUp"/>
+          <include name="getProfileTest" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.api.testcases.TS_008_GetUserPaymentHistory -->
     </classes>
   </test> <!-- APITest(failed) -->
 </suite> <!-- Failed suite [APISuite] -->
